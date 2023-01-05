@@ -1,0 +1,728 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap');
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'QuickSand',san-serif;
+	margin: 0;
+	overflow-x: hidden; 
+	background-color:  #89cff0;
+}
+
+img {
+	width: 200px;
+	margin-bottom: 40px;
+	margin-top: -9px;
+	margin-right: 1350px;
+	overflow: hidden;
+	
+
+}
+
+#aboutuss {
+	text-align: center;
+}
+nav {
+	text-decoration: none;
+	background-color : white;
+	padding: 35px;
+	position : sticky;
+	top : 0;
+	text-align: center;
+	text-decoration: none;
+	width: 100%;
+	
+}
+
+ul {
+	margin-left: 180px;
+	margin-top: -110px;
+	list-style: none;
+	
+}
+
+li {
+	display : inline;
+	list-style-type: none;
+	margin-right: 40px;
+	margin-top: 50px;
+	font-size : 25px;
+	text-decoration: none;
+	padding: 10px 0;
+	
+}
+
+
+a {
+	text-decoration-line: none;
+	color : black; 
+	
+}
+
+.nav-li a:hover {
+  text-decoration: none;
+  border-bottom: 3px solid red;  
+  color : blue;
+
+}
+
+.nav-li a.active {
+  text-decoration: none;
+  border-bottom: 6px solid red;
+  color : blue;
+}
+h1 {
+	font-size: 50px;
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+h2 {
+	font-size: 25px;
+	text-align: center;
+}
+
+p {
+	font-size: 38px;
+	width: 1200px;
+	margin-top: 200px;
+	margin-left: 210px;
+	text-align: left;
+}
+
+.slideshow {
+	height: 600px;
+	margin-top: -80px;
+}
+
+.content {
+	margin-left: -130px;
+	
+}
+
+.mySlides {
+	width: 1030px;
+	height: 550px;
+	margin-left: 470px;
+	margin-top: 140px;
+	border-style : solid;
+	border-width: 6px;
+	border-radius: 5px 5px 5px 5px;
+}
+
+#back {
+	margin-left: 400px;
+	margin-top : -200px;
+}
+
+#go {
+	margin-left: 1500px;
+	margin-top : -200px;
+}
+
+.backto {
+	margin-top: -1900px;
+	margin-left: -100px;
+	width: 40px;
+}
+
+.goto {
+	margin-top: 120px;
+	margin-left: 120px;
+	width: 40px;
+} 
+
+.about {
+	background-color: white;
+	background-image : url("bgabout.png");
+	background-size : 100% 100%;
+	background-repeat: no-repeat;
+	height: 1000px;
+	width: 100%;
+	margin-top: 10px;
+	overflow: hidden;
+}
+
+.menu {
+	width: 100%;
+	height: 840px;
+	background-color: #caf7e3;
+	padding: 10px;
+}
+
+.text {
+	margin-top: 60px;
+}
+
+.top {
+	display: block;
+    position: relative;
+    top: -250px;
+    visibility: hidden;
+}
+
+.menu {
+	margin-top: -10px;
+}
+
+.text-menu1{
+	font-size: 25px;
+	text-align: center;
+	padding: 120px 140px 0px 50px;
+	margin: -40px 40px 0px -400px;
+}
+.text-menu2{
+	font-size: 25px;
+	text-align: center;
+	padding: 110px 0px 0px 0px;
+	margin: -20px 40px 0px -450px;
+}
+
+.text-menu3{
+	font-size: 25px;
+	text-align: center;
+	padding: 120px 0px 0px 0px;
+	margin: -20px 40px 0px -450px;
+}
+
+.text-menu4{
+	font-size: 25px;
+	text-align: center;
+	padding: 120px 0px 100px 10px;
+	margin: -350px  0px 100px -450px;
+}
+
+.text-menu5{
+	font-size: 25px;
+	text-align: center;
+	padding: 120px 0px 100px 10px;
+	margin: -670px  0px 100px -450px;
+}
+
+.text-menu6{
+	font-size: 25px;
+	text-align: center;
+	padding: 120px 0px 100px 10px;
+	margin: -670px  0px 100px -450px;
+}
+
+
+.menu1 {
+	border-radius: 10px;
+	background-color: #ffaaa7;
+	 height: 200px;
+  width: 300px;
+	margin-left: 200px;
+	margin-top: 90px;
+}
+ 
+.menu2 {
+	border-radius: 10px;
+	background-color: #ffaaa7;
+	 height: 200px;
+ 	width: 300px;
+	margin-left: 700px;
+	margin-top: -200px;
+}
+
+.menu4 {
+	border-radius: 10px;
+	background-color: #ffaaa7;
+	 height: 200px;
+ 	width: 300px;
+	margin-left: 1200px;
+	margin-top: -470px;
+}
+
+.menu5{
+	border-radius: 10px;
+	background-color: #ffaaa7;
+	 height: 200px;
+  width: 300px;
+	margin-left: 200px;
+	margin-top: 750px;
+}
+
+.menu6 {
+	border-radius: 10px;
+	background-color: #ffaaa7;
+	 height: 200px;
+  width: 300px;
+	margin-left: 700px;
+	margin-top: 470px;
+}
+
+.menu3 {
+	border-radius: 10px;
+	background-color: #ffaaa7;
+	 height: 200px;
+  width: 300px;
+	margin-left: 1200px;
+	margin-top: 90px;
+}
+
+
+
+.gambar1 {
+	width: 100px;
+	height: 100px;
+	margin-top: -1000px;
+	margin-bottom: 90px;
+	margin-left: 100px;
+}
+ 
+.gambar2 {
+	width: 100px;
+	height: 100px;
+	margin-top: -200px;
+	margin-bottom: 90px;
+	margin-left: 100px;
+}
+ 
+.gambar3 {
+	width: 100px;
+	height: 100px;
+	margin-top: -210px;
+	margin-bottom: 90px;
+	margin-left: 100px;
+}
+
+.gambar4 {
+	width: 100px;
+	height: 100px;
+	margin-top: -500px;
+	margin-bottom: 290px;
+	margin-left: 100px;
+}
+ 
+
+.gambar5 {
+	width: 100px;
+	height: 100px;
+	margin-top: -380px;
+	margin-bottom: 390px;
+	margin-left: 110px;
+}
+
+.gambar6 {
+	width: 100px;
+	height: 100px;
+	margin-top: -380px;
+	margin-bottom: 390px;
+	margin-left: 100px;
+}
+
+.facilities {
+	width: 100%;
+	height: 1050px;
+	background-color:  #89cff0;
+	padding: 10px;
+}
+
+#wifi {
+	width: 150px;
+	height: 150px;
+	margin-left: 200px;
+	margin-top: 40px;
+}
+
+#textta {
+	font-size: 30px;
+	color: black;
+	margin-top: 30px;
+	margin-left: -320px;
+	text-align: center;
+	
+}
+
+#ac {
+	width: 150px;
+	height: 150px;
+	margin-left: 200px;
+	margin-top: 100px;
+}
+
+#textb {
+	font-size: 30px;
+	color: black;
+	margin-top: 20px;
+	margin-left: -320px;
+	text-align: center;
+	
+}
+
+#freeflow {
+	width: 150px;
+	height: 150px;
+	margin-left: 680px;
+	margin-top: -660px;
+	margin-bottom: 700px;
+}
+
+#textc {
+	font-size: 30px;
+	color: black;
+	margin-left: 160px;
+	margin-top: -650px;
+	margin-bottom: 500px;
+	text-align: center;
+}
+	
+#smoking {
+	width: 150px;
+	height: 150px;
+	margin-left: 680px;
+	margin-top: -390px;
+	margin-bottom: 500px;
+}
+
+#textd {
+	font-size: 30px;
+	color: black;
+	margin-left: 160px;
+	margin-top: -420px;
+	margin-bottom: 500px;
+	text-align: center;
+}
+
+#boardgame {
+	width: 150px;
+	height: 150px;
+	margin-left: 1190px;
+	margin-top: -1200px;
+	margin-bottom: 1000px;
+}
+
+#texte {
+	font-size: 30px;
+	color: black;
+	margin-left: 670px;
+	margin-top: -930px;
+	margin-bottom: 500px;
+	text-align: center;
+}
+
+#playground {
+	width: 150px;
+	height: 150px;
+	margin-left: 1200px;
+	margin-top: -400px;
+	margin-bottom: 1000px;
+}
+
+#textf {
+	font-size: 30px;
+	color: black;
+	margin-left: 680px;
+	margin-top: -920px;
+	margin-bottom: 500px;
+	text-align: center;
+}
+
+#textnote {
+	margin-top: -400px;
+	margin-left: 190px;
+	font-size: 25px;
+}
+	
+
+.promotion {
+	width: 100%;
+	height: 540px;
+	background-color: #caf7e3;
+	padding: 10px;
+}
+
+#pro1 {
+	width: 500px;
+	height: 300px;
+	margin-left: 40px;
+	margin-top: 30px;
+}
+
+#pro2 {
+	width: 500px;
+	height: 300px;
+	margin-left: 580px;
+	margin-top: -600px;
+	margin-bottom: 60px;
+}
+
+#pro3 {
+	width: 500px;
+	height: 300px;
+	margin-left: 1130px;
+	margin-top: -600px;
+	margin-bottom: 80px;
+}
+
+.location {
+	width: 100%;
+	height: 800px;
+	background-color:  #89cff0;
+	padding: 10px;
+}
+
+#location1 {
+	width: 130px;
+	height: 130px;
+	margin-left: 100px;
+	margin-top: 20px;
+	text-align: left;
+}
+
+#locationtext1 {
+	font-size: 30px;
+	color: red;
+	margin-top: -165px;
+	margin-left: 280px;
+}
+
+#address1 {
+	font-size: 20px;
+	margin-top: -15px;
+	margin-bottom: -50px;
+	margin-left: 280px;
+}
+
+#location2 {
+	width: 130px;
+	height: 130px;
+	margin-left: 100px;
+	margin-top: 170px;
+}
+
+#locationtext2 {
+	font-size: 30px;
+	color: red;
+	margin-top: -165px;
+	margin-left: 280px;
+}
+
+#address2 {
+	font-size: 20px;
+	margin-top: -15px;
+	margin-bottom: -50px;
+	margin-left: 280px;
+}
+
+#location3 {
+	width: 130px;
+	height: 130px;
+	margin-left: 100px;
+	margin-top: 170px;
+}
+
+#locationtext3 {
+	font-size: 30px;
+	color: red;
+	margin-top: -165px;
+	margin-left: 280px;
+}
+
+#address3 {
+	font-size: 20px;
+	margin-top: -15px;
+	margin-bottom: -50px;
+	margin-left: 280px;
+}
+
+.delivery {
+	width: 100%;
+	height: 570px;
+	background-color: #caf7e3;
+	padding: 10px;
+}
+
+
+
+#deliverytext {
+	margin-top: 40px;
+	text-align: center;
+}
+
+#delivery1 {
+	margin-top: 100px;
+	margin-left: 100px;
+	width: 200px;
+	height: 50px;
+}
+
+#delivery2 {
+	margin-top: -150px;
+	margin-left: 500px;
+	width: 170px;
+	height: 200px;
+}
+
+#delivery3 {
+	margin-top: -650px;
+	margin-bottom: 70px;
+	margin-left: 860px;
+	width: 300px;
+	height: 200px;
+}
+
+#delivery4 {
+	margin-top: -650px;
+	margin-bottom: 120px;
+	margin-left: 1270px;
+	width: 300px;
+	height: 150px;
+}
+
+#deliverytext {
+	text-align: center;
+	font-size: 30px;
+	margin-top: 50px;
+}
+
+.membership {
+	width: 100%;
+	height: 900px;
+	background-color: #89cff0;
+	padding: 10px;
+}
+
+#membershiptext {
+	text-align: center;
+	font-size: 30px;
+	margin-top: 50px;
+}
+#benetifo {
+	font-size: 23px;
+	width: 470px;
+	margin-left: 20px;
+ 	padding: 20px;
+}
+
+#addform {
+	margin-left: 400px;
+}
+
+label {
+	font-size: 20px;
+	margin-right: 165px;
+	
+}
+
+.form-group {
+	margin-left: -340px
+}
+
+#namalengkap {
+	font-family : 'Quicksand', sans-serif;
+	font-size: 20px;
+	width: 500px;
+	text-align: left;
+	border-color: black;
+	margin-top: 80px;
+	margin-left: 40px
+}
+
+
+#tempatlahir {
+	font-family : 'Quicksand', sans-serif;
+	font-size: 20px;
+	width: 500px;
+	text-align: left;
+	border-color: black;
+	margin-top: 20px;
+	margin-left: 0px;
+
+}
+
+#tanggallahir {
+	font-family : 'Quicksand', sans-serif;
+	font-size: 20px;
+	width: 500px;
+	text-align: left;
+	border-color: black;
+	margin-top: 20px;
+	margin-left: 7px;
+}
+
+#email {
+	font-family : 'Quicksand', sans-serif;
+	font-size: 20px;
+	width: 500px;
+	text-align: left;
+	border-color: black;
+	margin-top: 20px;
+	margin-left: 74px;
+}
+
+#address {
+	font-family : 'Quicksand', sans-serif;
+	font-size: 20px;
+	width: 500px;
+	text-align: left;
+	border-color: black;
+	margin-top: 40px;
+	margin-left: 49px;
+}
+
+
+#phone {
+	font-family : 'Quicksand', sans-serif;
+	font-size: 20px;
+	width: 500px;
+	text-align: left;
+	border-color: black;
+	margin-top: 30px;
+	margin-left: 63px;
+}
+
+.btn-submit {
+	font-family : 'Quicksand', sans-serif;
+	font-style: bold;
+	width: fit-content;
+    padding: 12px 24px;
+    color: black;
+    font-size: 15px;
+	margin-left: -420px;
+	margin-top: 70px;
+	background-color: white;
+
+}
+#gender {
+	margin-top: 10px;
+	margin-bottom: 40px;
+	margin-left: 500px;
+}
+
+
+#laki-laki {
+	margin-left: 54px;
+}
+
+#man {
+	margin-left: 55px;
+}
+
+#woman {
+	
+}
+
+.btn-submit {
+	font-family : 'Quicksand', sans-serif;
+	font-style: bold;
+	width: fit-content;
+    padding: 12px 24px;
+    color: black;
+    font-size: 15px;
+	margin-left: -50px;
+	margin-top: 20px;
+	background-color: white;
+
+}
+
+#benefit {
+	margin-left: 970px;
+	width: 650px;
+	height: 400px;
+	margin-top: -1400px;
+	margin-bottom: 180px;
+}

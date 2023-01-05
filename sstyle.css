@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap');
+
+* {
+	box-sizing: border-box;
+}
+
+header {
+	display : inline;
+}
+
+
+.jumbotron {
+	font-size : 20px;
+	padding: 60px;
+	background-color : #00c8eb;
+	text-align: center;
+	color : white;
+}
+
+body {
+	font-family : 'Quicksand', sans-serif;
+	margin : 0;
+	padding : 0;
+}
+
+  nav li {
+	display : inline;
+	list-style-type: none;
+	margin-right: 20px;
+	font-size : 25px;
+}
+
+nav {
+
+	background-color : #00a2c6;
+	padding: 5px;
+	position : sticky;
+	top : 0;
+	text-align: center;
+	
+}
+
+.nav-li a:hover {
+  text-decoration: none;
+  border-bottom: 3px solid red;  
+  color : white;
+ 
+}
+
+.nav-li a.active {
+  text-decoration: none;
+  border-bottom: 3px solid red;
+  color : white;
+	
+}
+
+a {
+	text-decoration-line: none;
+	color : black; 
+	
+}
+
+.sushi {
+	width: 100%;
+	height: 1780px;
+	background-color: #caf7e3;
+	padding: 10px;
+}
+
+
+h1 {
+	text-align: center;
+	font-size: 50px;
+}
+
+.tako {
+  height: 450px;
+  width: 400px;
+  margin: 100px 0px 0px 100px;
+  background-color :  #FFFFF7;
+   border-radius: 30px;
+}
+
+
+.tamago {
+  height: 450px;
+  width: 400px;
+  margin: -450px 0px 0px 600px;
+  background-color :  #FFFFF7;
+   border-radius: 30px;
+}
+
+.sake {
+  height: 450px;
+  width: 400px;
+  margin: -450px 0px 0px 1100px;
+  background-color :  #FFFFF7;
+   border-radius: 30px;
+}
+
+
+.maguro {
+  height: 450px;
+  width: 400px;
+  margin: 100px 0px 0px 100px;
+  background-color :  #FFFFF7;
+   border-radius: 30px;
+}
+
+.ebi {
+  height: 450px;
+  width: 400px;
+  margin: -450px 0px 0px 600px;
+  background-color :  #FFFFF7;
+   border-radius: 30px;
+}
+
+.unagi {
+  height: 450px;
+  width: 400px;
+  margin: -450px 0px 0px 1100px;
+  background-color :  #FFFFF7;
+   border-radius: 30px;
+}
+
+.ika {
+  height: 450px;
+  width: 400px;
+  margin: 100px 0px 0px 100px;
+  background-color :  #FFFFF7;
+   border-radius: 30px;
+}
+
+.tobiko {
+  height: 450px;
+  width: 400px;
+  margin: -450px 0px 0px 600px;
+  background-color :  #FFFFF7;
+   border-radius: 30px;
+}
+
+.masago{
+  height: 450px;
+  width: 400px;
+  margin: -450px 0px 0px 1100px;
+  background-color :  #FFFFF7;
+   border-radius: 30px;
+}
+
+
+img {
+	width: 300px;
+	height: 150px;
+}
+
+#takoimg {
+	margin-left: 50px;
+	margin-top: 30px;
+}
+
+
+#tamagoimg {
+	margin-left: 50px;
+	margin-top: 30px;
+}
+
+
+#sakeimg {
+	margin-left: 50px;
+	margin-top: 30px;
+}
+
+
+#maguroimg {
+	margin-left: 50px;
+	margin-top: 30px;
+}
+
+
+#ebiimg {
+	margin-left: 50px;
+	margin-top: 30px;
+}
+
+#unagiimg {
+	margin-left: 50px;
+	margin-top: 30px;
+}
+
+#ikaimg {
+	margin-left: 50px;
+	margin-top: 30px;
+}
+
+#tobikoimg {
+	margin-left: 50px;
+	margin-top: 30px;
+}
+
+
+#masagoimg {
+	margin-left: 50px;
+	margin-top: 30px;
+}
+
+.rectangle {
+	height: 70px;
+  width: 190px;
+  background-color: #FDFD96;
+	margin-top: 30px;
+  margin-left: 95px;
+}
+
+
+h2 {
+	font-size: 30px;
+	text-align: center;
+	color: red;
+}
+
+h3 {
+	font-size: 20px;
+	text-align: center;
+	margin-top: -15px;
+	color: blue;
+}
+
+p {
+	text-align: center;
+	font-size: 25px;
+	margin-top: 2px;
+	padding: 20px;
+}

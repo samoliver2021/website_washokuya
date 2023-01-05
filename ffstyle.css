@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap');
+
+* {
+	box-sizing: border-box;
+}
+
+header {
+	display : inline;
+}
+
+
+.jumbotron {
+	font-size : 20px;
+	padding: 60px;
+	background-color : #00c8eb;
+	text-align: center;
+	color : white;
+}
+
+body {
+	font-family : 'Quicksand', sans-serif;
+	margin : 0;
+	padding : 0;
+}
+
+  nav li {
+	display : inline;
+	list-style-type: none;
+	margin-right: 20px;
+	font-size : 25px;
+}
+
+nav {
+
+	background-color : #00a2c6;
+	padding: 5px;
+	position : sticky;
+	top : 0;
+	text-align: center;
+	
+}
+
+.nav-li a:hover {
+  text-decoration: none;
+  border-bottom: 3px solid red;  
+  color : white;
+ 
+}
+
+.nav-li a.active {
+  text-decoration: none;
+  border-bottom: 3px solid red;
+  color : white;
+	
+}
+
+a {
+	text-decoration-line: none;
+	color : black; 
+	
+}
+
+.sidedish {
+	width: 100%;
+	height: 1850px;
+	background-color: #caf7e3;
+	padding: 10px;
+}
+
+
+h1 {
+	text-align: center;
+	font-size: 50px;
+}
+
+.karage {
+  height: 450px;
+  width: 400px;
+  margin: 100px 0px 0px 100px;
+  background-color :  #FFFFF7;
+   border-radius: 30px;
+}
+
+
+.tamagogaki {
+  height: 450px;
+  width: 400px;
+  margin: -450px 0px 0px 600px;
+  background-color :  #FFFFF7;
+   border-radius: 30px;
+}
+
+.ebifurai {
+  height: 450px;
+  width: 400px;
+  margin: -450px 0px 0px 1100px;
+  background-color :  #FFFFF7;
+   border-radius: 30px;
+}
+
+
+.kaniroll {
+  height: 450px;
+  width: 400px;
+  margin: 100px 0px 0px 100px;
+  background-color :  #FFFFF7;
+   border-radius: 30px;
+}
+
+.ekkado {
+  height: 450px;
+  width: 400px;
+  margin: -450px 0px 0px 600px;
+  background-color :  #FFFFF7;
+   border-radius: 30px;
+}
+
+.toriball {
+  height: 450px;
+  width: 400px;
+  margin: -450px 0px 0px 1100px;
+  background-color :  #FFFFF7;
+   border-radius: 30px;
+}
+
+.shrimproll {
+  height: 450px;
+  width: 400px;
+  margin: 100px 0px 0px 100px;
+  background-color :  #FFFFF7;
+   border-radius: 30px;
+}
+
+.takoyaki {
+  height: 450px;
+  width: 400px;
+  margin: -450px 0px 0px 600px;
+  background-color :  #FFFFF7;
+   border-radius: 30px;
+}
+
+.tempura{
+  height: 450px;
+  width: 400px;
+  margin: -450px 0px 0px 1100px;
+  background-color :  #FFFFF7;
+   border-radius: 30px;
+}
+
+img {
+	width: 300px;
+	height: 150px;
+}
+
+#karageimg {
+	margin-left: 50px;
+	margin-top: 30px;
+}
+
+
+#tamagogakimg {
+	margin-left: 50px;
+	margin-top: 30px;
+}
+
+
+#ebifuraiimg {
+	margin-left: 50px;
+	margin-top: 30px;
+}
+
+
+#kanirollimg {
+	margin-left: 50px;
+	margin-top: 30px;
+}
+
+
+#ekkadoimg {
+	margin-left: 50px;
+	margin-top: 30px;
+}
+
+#toriballimg {
+	margin-left: 50px;
+	margin-top: 30px;
+}
+
+#shrimprollimg {
+	margin-left: 50px;
+	margin-top: 30px;
+}
+
+#takoyakiimg {
+	margin-left: 50px;
+	margin-top: 30px;
+}
+
+
+#tempuraimg {
+	margin-left: 50px;
+	margin-top: 30px;
+}
+
+.rectangle {
+	height: 70px;
+  width: 190px;
+  background-color: #FDFD96;
+	margin-top: 30px;
+  margin-left: 95px;
+}
+
+
+h2 {
+	font-size: 30px;
+	text-align: center;
+	color: red;
+}
+
+h3 {
+	font-size: 20px;
+	text-align: center;
+	margin-top: -15px;
+	color: blue;
+}
+
+p {
+	text-align: center;
+	font-size: 25px;
+	margin-top: 2px;
+	padding: 20px;
+}
+
+.rice1 {
+  height: 450px;
+  width: 400px;
+  margin: 100px 0px 0px 100px;
+  background-color : #caf7e3  ;
+   border-radius: 30px;
+}
+
+.rice2 {
+  height: 450px;
+  width: 400px;
+  margin: -450px 0px 0px 600px;
+  background-color :  #caf7e3;
+   border-radius: 30px;
+}
+
+.rice3 {
+  height: 450px;
+  width: 400px;
+  margin: -450px 0px 0px 1100px;
+  background-color :  #caf7e3;
+   border-radius: 30px;
+}
+
+
+#riceimg1 {
+	margin-left: 50px;
+	margin-top: 30px;
+}
+
+#riceimg2 {
+	margin-left: 50px;
+	margin-top: 30px;
+}
+
+
+#riceimg3 {
+	margin-left: 50px;
+	margin-top: 30px;
+}
+
+.rice {
+	width: 100%;
+	height: 750px;
+	background-color: white;
+	padding: 10px;
+}
+
